@@ -30,8 +30,14 @@
       "Bouton « Je ne peux pas parler » : message lu aux secouristes avec position et constantes"
     ],
     "links": [
-      {"label": "La bague connectée sur la boutique", "url": "https://maythayus1.store/produit/new-smart-ring-digital-display-5atm-waterproof-heart-ratesleephealth-monitoring-multisports-fashion-ring-for-men-women-2/"},
-      {"label": "Discussion XDA", "url": "https://xdaforums.com/t/supersos-android-survival-pack.4779243/"}
+      {
+        "label": "Bagues connectées sur la boutique",
+        "url": "https://maythayus1.store/?s=bague&post_type=product"
+      },
+      {
+        "label": "Discussion XDA",
+        "url": "https://xdaforums.com/t/supersos-android-survival-pack.4779243/"
+      }
     ],
     "note": "SuperSOS n'est pas un dispositif médical : les mesures et alertes sont indicatives."
   },
@@ -51,7 +57,13 @@
     ],
     "image": "assets/intercom2sos.png",
     "download": "https://raw.githubusercontent.com/maythayus/Intercom_Maythayus1/main/IntercoMaythayus.apk",
-    "downloadLabel": "Télécharger l'APK"
+    "downloadLabel": "Télécharger l'APK",
+    "links": [
+      {
+        "label": "Radio VHF kv4p-ht sur la boutique",
+        "url": "https://maythayus1.store/produit/radio-vhf-artisanale-kv4p-ht-transformation-dun-smartphone-android-en-emetteur-recepteur-radioamateur-pcb-v2-0-avec-module-sa818-v-sa818s/"
+      }
+    ]
   },
   {
     "slug": "geoflash",

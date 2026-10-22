@@ -42,3 +42,12 @@ h2.section{font-size:1.6rem;margin:30px 0 0}
 footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}
 footer .wrap{display:flex;flex-wrap:wrap;gap:14px 24px;justify-content:space-between}
 footer a{color:var(--muted);margin-right:16px}
+@media(max-width:600px){
+nav a{margin-left:12px;font-size:.85rem}
+nav a:last-child{display:none}
+.brand{font-size:.9rem}
+.brand img{width:30px;height:30px}
+.app-hero{padding-top:36px}
+.btn{padding:10px 18px}
+}
+body{overflow-wrap:anywhere}

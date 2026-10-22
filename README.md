@@ -12,7 +12,11 @@ Site 100 % statique (HTML/CSS, aucune dépendance). Chaque `push` sur `main` est
 
 Le style est dans `public/styles.css`, les images dans `public/assets/`.
 
-## Réglages Cloudflare Pages
+## Réglages Cloudflare
+
+Le dépôt marche aussi bien en **Worker** (le fichier `wrangler.jsonc` sert le dossier `public/`, commande de déploiement `npx wrangler deploy`) qu'en **Pages** (réglages ci-dessous).
+
+### Pages
 
 | Champ | Valeur |
 |---|---|

@@ -1,8 +1,8 @@
 # Maythayus Apps
 
-Site vitrine des applications Maythayus, déployé sur **Cloudflare Pages** : https://apps.maythayus1.store
+Site vitrine des applications Maythayus, déployé par un **Cloudflare Worker** (assets statiques) : https://maythayus-apps.kaelmi.workers.dev (domaine prévu : https://apps.maythayus1.store)
 
-Site 100 % statique (HTML/CSS, aucune dépendance). Chaque `push` sur `main` est déployé automatiquement par Cloudflare, chaque pull request reçoit une URL de prévisualisation.
+Site 100 % statique (HTML/CSS, aucune dépendance). Chaque `push` sur `main` est déployé automatiquement par Cloudflare (Workers Builds).
 
 ## Modifier le contenu
 

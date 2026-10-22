@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://apps.maythayus1.store/sitemap.xml

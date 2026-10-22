@@ -1,0 +1,132 @@
+[
+  {
+    "slug": "sattemps",
+    "name": "SatTemps",
+    "repo": "SatTemps",
+    "tagline": "L'heure exacte à la milliseconde, par satellite.",
+    "category": "Terrain & précision",
+    "summary": "Heure exacte via le temps GNSS (horloges atomiques des satellites) puis NTP, vue du ciel GPS, pointage de parabole et recherche de l'antenne 5G/4G la mieux captée.",
+    "features": [
+      "Horloge à la milliseconde : temps GNSS en priorité, sinon NTP (time.google.com, pool.ntp.org, time.cloudflare.com)",
+      "Vue polaire du ciel GPS, Galileo, GLONASS, BeiDou avec la qualité de chaque signal (C/N0)",
+      "Pointage parabole : azimut, élévation et inclinaison LNB vers Astra, Hotbird, Eutelsat…",
+      "Réseau 5G NR / 4G LTE : RSRP, RSRQ, SINR et mesure directionnelle 360° du relais",
+      "Interface en français et en anglais"
+    ],
+    "download": "https://raw.githubusercontent.com/maythayus/SatTemps/main/dist/SatTemps-v1.2.0-debug.apk",
+    "downloadLabel": "Télécharger l'APK v1.2.0"
+  },
+  {
+    "slug": "supersos",
+    "name": "SuperSOS",
+    "repo": "SuperSOS",
+    "tagline": "Le pack survie qui appelle les secours pour vous.",
+    "category": "Urgence & santé",
+    "summary": "App d'urgence : position GPS, message vocal, appel des secours, et surveillance des constantes via une bague connectée ECTRI avec alerte automatique.",
+    "features": [
+      "SOS en un geste : GPS + message vocal (synthèse) + appel d'urgence",
+      "Bague connectée ECTRI en Bluetooth : pouls, SpO2, tension, température",
+      "Surveillance des constantes avec alerte, compte à rebours de 10 s et annulation",
+      "Bouton « Je ne peux pas parler » : message lu aux secouristes avec position et constantes"
+    ],
+    "links": [
+      {"label": "La bague connectée sur la boutique", "url": "https://maythayus1.store/produit/new-smart-ring-digital-display-5atm-waterproof-heart-ratesleephealth-monitoring-multisports-fashion-ring-for-men-women-2/"},
+      {"label": "Discussion XDA", "url": "https://xdaforums.com/t/supersos-android-survival-pack.4779243/"}
+    ],
+    "note": "SuperSOS n'est pas un dispositif médical : les mesures et alertes sont indicatives."
+  },
+  {
+    "slug": "intercom2sos",
+    "name": "Intercom2SOS",
+    "repo": "Intercom_Maythayus1",
+    "tagline": "Talkie-walkie, SOS et radio : le pack survie Android.",
+    "category": "Urgence & radio",
+    "summary": "Push-To-Talk via un module radio USB (Android + Raspberry Pi Pico), mode SOS avec envoi GPS et message vocal sur les ondes, capteur cardiaque Bluetooth en option.",
+    "features": [
+      "Intercom Push-To-Talk piloté par un module USB (fréquence, état, PTT)",
+      "SOS : GPS haute précision, message d'urgence partageable, appel 112 / 911",
+      "Transmission « à l'antenne » : GPS + message vocal automatique",
+      "Mode TEST et mode RÉEL pour s'entraîner sans déclencher d'alerte",
+      "Fréquence cardiaque d'une bague / capteur BLE incluse dans le message"
+    ],
+    "image": "assets/intercom2sos.png",
+    "download": "https://raw.githubusercontent.com/maythayus/Intercom_Maythayus1/main/IntercoMaythayus.apk",
+    "downloadLabel": "Télécharger l'APK"
+  },
+  {
+    "slug": "geoflash",
+    "name": "GeoFlash",
+    "repo": "GeoFlash",
+    "tagline": "Votre position GPS en QR code, instantanément.",
+    "category": "Utilitaire",
+    "summary": "Génère en temps réel un QR code de votre position (format geo:) qui s'ouvre directement dans Google Maps. Partage et sauvegarde en un geste.",
+    "features": [
+      "QR code régénéré à chaque nouvelle position GPS",
+      "Format standard geo: compatible Google Maps et applis de cartes",
+      "Partage de l'image et du lien (WhatsApp, SMS, e-mail…)",
+      "Sauvegarde dans la galerie sans permission de stockage (Android 10+)",
+      "Affichage latitude, longitude et précision en mètres"
+    ]
+  },
+  {
+    "slug": "trustlink",
+    "name": "TrustLink",
+    "repo": "TrustLink",
+    "tagline": "Authentification forte QR + NFC + biométrie, analysée par l'IA.",
+    "category": "Sécurité",
+    "summary": "Prototype d'authentification à trois facteurs : défi par QR code, preuve de possession par tag NFC, signature biométrique matérielle, et score de risque anti-fraude par Gemini.",
+    "features": [
+      "Défi QR code à usage unique émis par le service",
+      "Tag NFC : empreinte SHA-256 salée, l'UID brut n'est jamais stocké",
+      "Clé EC P-256 matérielle (StrongBox) débloquée par biométrie",
+      "Score de risque 0-100 par Gemini, avec moteur de règles local en secours",
+      "Serveur Ktor de vérification inclus (/enroll, /challenge, /verify)"
+    ]
+  },
+  {
+    "slug": "nfc-card-emulator",
+    "name": "NFC Card Emulator",
+    "repo": "NFC_CARD_EMULATOR_ROOT_FREE",
+    "tagline": "Labo de test NFC HCE ISO-DEP sur Android.",
+    "category": "NFC & diagnostic",
+    "summary": "Outil de test et d'analyse NFC : émulation HCE ISO-DEP (APDU), gestion de profils de cartes et import de dumps MIFARE Classic pour comparaison et diagnostic.",
+    "features": [
+      "Profils de cartes : ajout, sélection, sauvegarde / restauration JSON",
+      "Import de dumps VIGIK JSON, Proxmark3 et .dump bruts",
+      "Émulation HCE ISO-DEP : SELECT AID, GET UID, READ",
+      "Protocole de démonstration AES-GCM + scripts PC/SC (lecteur ACR122U)",
+      "Journal intégré : copie, export"
+    ],
+    "note": "Outil de test pour des systèmes que vous contrôlez. Il ne clone pas les badges VIGIK (MIFARE Classic / Crypto-1)."
+  },
+  {
+    "slug": "gostrix-booster",
+    "name": "Go Strix Booster",
+    "repo": "Xiaomi_and_Asus_GoStrix_Headphone",
+    "tagline": "Égaliseur global et analyseur de spectre, sans root.",
+    "category": "Audio",
+    "summary": "Applique des effets audio globaux (égaliseur, basses, limiteur, loudness) via les API Android AudioEffect, avec un analyseur de spectre en temps réel. Pensé pour les casques Xiaomi et Asus ROG Go Strix.",
+    "features": [
+      "Égaliseur multibande global",
+      "BassBoost, limiteur (DynamicsProcessing), LoudnessEnhancer, Virtualizer",
+      "Analyseur de spectre FFT en direct",
+      "Idéal avec la musique locale MP3 / FLAC"
+    ],
+    "note": "Fonctionne au mieux selon l'appareil : certains lecteurs en mode « Hi-Res / USB direct » contournent les effets Android."
+  },
+  {
+    "slug": "bet-analyst",
+    "name": "Bet.Bot",
+    "repo": "bet-analyst",
+    "platform": "PC (Python)",
+    "tagline": "L'analyse de paris sportifs qui croise quatre sources.",
+    "category": "Paris sportifs",
+    "summary": "Pipeline local qui croise les probabilités Forebet, les statistiques Flashscore, un modèle de Poisson maison et les cotes Unibet, puis fait commenter les écarts par un LLM local (LM Studio).",
+    "features": [
+      "Quatre sources croisées pour chaque match pariable",
+      "Modèle de Poisson : matrice des scores exacts, marchés cohérents entre eux",
+      "Résumé par un LLM local : rien ne sort de votre machine",
+      "Rapport Markdown prêt à lire"
+    ]
+  }
+]

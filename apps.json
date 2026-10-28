@@ -130,15 +130,31 @@
     "slug": "bet-analyst",
     "name": "Bet.Bot",
     "repo": "bet-analyst",
-    "platform": "PC (Python)",
+    "platform": "PC (Windows / Linux)",
     "tagline": "L'analyse de paris sportifs qui croise quatre sources.",
     "category": "Paris sportifs",
-    "summary": "Pipeline local qui croise les probabilités Forebet, les statistiques Flashscore, un modèle de Poisson maison et les cotes Unibet, puis fait commenter les écarts par un LLM local (LM Studio).",
+    "summary": "Pipeline local qui croise les probabilités Forebet, les statistiques Flashscore, un modèle de Poisson maison et les cotes Unibet, puis fait commenter les écarts par un LLM local (LM Studio). Tourne sous Windows comme sous Linux.",
     "features": [
       "Quatre sources croisées pour chaque match pariable",
       "Modèle de Poisson : matrice des scores exacts, marchés cohérents entre eux",
-      "Résumé par un LLM local : rien ne sort de votre machine",
+      "LLM local au choix (MiMo-7B-RL par défaut) : rien ne sort de votre machine",
+      "Fonctionne sous Windows et sous Linux (Omarchy)",
       "Rapport Markdown prêt à lire"
+    ]
+  },
+  {
+    "slug": "astroclock",
+    "name": "AstroClock",
+    "repo": "AstroClock-Android",
+    "platform": "Android",
+    "tagline": "Une horloge qui suit le mouvement.",
+    "category": "Utilitaire",
+    "summary": "Prototype d'horloge en Jetpack Compose : l'heure courante, un indicateur triangulaire orienté par le gyroscope et un mode nuit.",
+    "features": [
+      "Heure courante mise à jour en continu",
+      "Indicateur triangulaire piloté par le gyroscope",
+      "Mode nuit activable",
+      "Interface Jetpack Compose (Material 3)"
     ]
   }
 ]

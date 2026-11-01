@@ -47,7 +47,7 @@
     "repo": "Intercom_Maythayus1",
     "tagline": "Talkie-walkie, SOS et radio : le pack survie Android.",
     "category": "Urgence & radio",
-    "summary": "Push-To-Talk via un module radio USB (Android + Raspberry Pi Pico), mode SOS avec envoi GPS et message vocal sur les ondes, capteur cardiaque Bluetooth en option.",
+    "summary": "Projet rattrapé par le temps : pour transformer un téléphone Android en radio, je recommande désormais kv4p HT, open source et activement maintenu. Intercom2SOS proposait le Push-To-Talk via un module radio USB (Android + Raspberry Pi Pico), mode SOS avec envoi GPS et message vocal sur les ondes, capteur cardiaque Bluetooth en option.",
     "features": [
       "Intercom Push-To-Talk piloté par un module USB (fréquence, état, PTT)",
       "SOS : GPS haute précision, message d'urgence partageable, appel 112 / 911",
@@ -59,6 +59,10 @@
     "download": "https://raw.githubusercontent.com/maythayus/Intercom_Maythayus1/main/IntercoMaythayus.apk",
     "downloadLabel": "Télécharger l'APK",
     "links": [
+      {
+        "label": "kv4p HT sur GitHub (recommandé)",
+        "url": "https://github.com/VanceVagell/kv4p-ht"
+      },
       {
         "label": "Radio VHF kv4p-ht sur la boutique",
         "url": "https://maythayus1.store/produit/radio-vhf-artisanale-kv4p-ht-transformation-dun-smartphone-android-en-emetteur-recepteur-radioamateur-pcb-v2-0-avec-module-sa818-v-sa818s/"

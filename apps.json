@@ -13,7 +13,7 @@
       "Réseau 5G NR / 4G LTE : RSRP, RSRQ, SINR et mesure directionnelle 360° du relais",
       "Interface en français et en anglais"
     ],
-    "download": "https://raw.githubusercontent.com/maythayus/SatTemps/main/dist/SatTemps-v1.2.0-debug.apk",
+    "download": "https://github.com/maythayus/SatTemps/releases/download/V1.2.0/SatTemps-v1.2.0-debug.apk",
     "downloadLabel": "Télécharger l'APK v1.2.0"
   },
   {

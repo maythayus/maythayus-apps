@@ -103,7 +103,7 @@ def main():
     cards = "\n".join(card(a) for a in apps)
     body = f"""<section class="hero"><div class="wrap">
 <h1>Les apps <span>Maythayus</span></h1>
-<p>Applications Android open source pour le terrain, l'urgence, la sécurité et l'audio. Codées à Marseille, téléchargeables gratuitement.</p>
+<p>Applications pour Android, Android TV et PC, avec leur code source sur GitHub : terrain, urgence, sécurité, audio et jeux rétro. Codées à Marseille, téléchargeables gratuitement.</p>
 <div class="actions"><a class="btn primary" href="#apps">Voir les apps</a><a class="btn orange" href="{STORE}">La boutique</a></div>
 </div></section>
 <main class="wrap" id="apps">
@@ -112,8 +112,8 @@ def main():
 {cards}
 </div>
 </main>"""
-    description = "Applications Android open source de Maythayus : SatTemps, SuperSOS, Intercom2SOS, GeoFlash, TrustLink et plus."
-    (PUBLIC / "index.html").write_text(page("Maythayus Apps - Applications Android open source", description, body, 0, ""), encoding="utf-8")
+    description = "Applications de Maythayus, code source sur GitHub : RetroSalon, SatTemps, SuperSOS, Intercom2SOS, GeoFlash, TrustLink et plus."
+    (PUBLIC / "index.html").write_text(page("Maythayus Apps - Applications Android, Android TV et PC", description, body, 0, ""), encoding="utf-8")
     not_found = """<main class="wrap"><section class="app-hero"><h1>Page introuvable</h1>
 <p class="lead">Cette page n'existe pas (ou plus).</p>
 <div class="actions left"><a class="btn primary" href="/">Retour aux apps</a></div></section></main>"""

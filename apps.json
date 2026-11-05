@@ -1,5 +1,31 @@
 [
   {
+    "slug": "retrosalon",
+    "name": "RetroSalon",
+    "repo": "retrosalon",
+    "platform": "Android TV",
+    "tagline": "Toutes vos consoles rétro dans un seul lanceur, sur la TV.",
+    "category": "Jeux rétro",
+    "summary": "Lanceur d'émulateurs pour Android TV et Google TV, pensé pour la manette Microsoft Xbox Nano : une seule bibliothèque pour 24 consoles, de la NES à la Switch, et chaque jeu s'ouvre dans le bon émulateur.",
+    "features": [
+      "24 consoles reconnues d'après le nom de leur dossier : Nintendo, Sega, Sony, NEC, SNK, Atari et arcade",
+      "Lancement direct dans l'émulateur installé (RetroArch, PPSSPP, Dolphin, DuckStation, Azahar, Eden…), au choix pour chaque console ; la plupart demandent une seule fois l'accès au dossier des jeux",
+      "Jeux sur la TV, une clé USB ou un serveur SMB (NAS, PC) : les jeux réseau sont copiés sur la TV puis gardés en cache",
+      "Connexion au serveur en IPv6 d'abord, IPv4 en secours",
+      "Tout se pilote à la manette (croix directionnelle, A et B) ; jeu à deux avec une seconde manette, selon l'émulateur",
+      "Interface en français et en anglais, selon la langue du système"
+    ],
+    "download": "https://github.com/maythayus/retrosalon/releases/download/v0.2.0/RetroSalon-0.2.0.apk",
+    "downloadLabel": "Télécharger l'APK v0.2.0",
+    "links": [
+      {
+        "label": "Guide des émulateurs Android TV",
+        "url": "https://github.com/maythayus/emulateurs-android-tv"
+      }
+    ],
+    "note": "RetroSalon ne contient aucun jeu, BIOS ni émulateur : utilisez uniquement des jeux que vous possédez. Android 8.0 minimum (Android 10 et un appareil puissant pour la 3DS et la Switch). Version 0.2 : pas encore essayée sur une vraie TV, ni avec une vraie manette Xbox Nano ou un serveur SMB ; seul le lancement dans PPSSPP a été vérifié, sur un émulateur Android."
+  },
+  {
     "slug": "sattemps",
     "name": "SatTemps",
     "repo": "SatTemps",
@@ -145,6 +171,26 @@
       "Fonctionne sous Windows et sous Linux (Omarchy)",
       "Rapport Markdown prêt à lire"
     ]
+  },
+  {
+    "slug": "popup-mises-a-jour",
+    "name": "Mises à jour matériel",
+    "repo": "popup-mises-a-jour",
+    "platform": "PC (Windows 10 / 11)",
+    "tagline": "Un coup d'œil pour savoir si vos logiciels gaming sont à jour.",
+    "category": "Gaming",
+    "summary": "Pop-up Windows qui vérifie les dernières versions du pilote NVIDIA GeForce, de MSI Center et MSI Companion, de Cooler Master MasterPlus, de Corsair iCUE et d'Intel Killer Performance Suite.",
+    "features": [
+      "Une carte par logiciel : pastille verte (à jour), rouge (mise à jour disponible, avec la nouvelle version) ou orange (vérification impossible, ou mise à jour Killer en attente d'un pack Intel)",
+      "Sources : service web NVIDIA pour votre carte graphique, Microsoft Store, site MasterPlus, et catalogue winget pour iCUE (parfois quelques jours de retard)",
+      "Vérifications en lecture seule : aucune mise à jour n'est téléchargée ni installée automatiquement",
+      "Boutons Ouvrir, Revérifier et Tout ouvrir",
+      "Option « Afficher au démarrage de Windows »"
+    ],
+    "image": "assets/popup-mises-a-jour.png",
+    "download": "https://github.com/maythayus/popup-mises-a-jour/releases/latest/download/MisesAJour.exe",
+    "downloadLabel": "Télécharger MisesAJour.exe",
+    "note": "L'exe n'est pas signé : si Windows SmartScreen s'affiche, cliquez sur « Informations complémentaires » puis « Exécuter quand même ». Projet indépendant, non affilié à NVIDIA, MSI, Cooler Master, Corsair ou Intel."
   },
   {
     "slug": "astroclock",

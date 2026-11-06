@@ -193,6 +193,26 @@
     "note": "L'exe n'est pas signé : si Windows SmartScreen s'affiche, cliquez sur « Informations complémentaires » puis « Exécuter quand même ». Projet indépendant, non affilié à NVIDIA, MSI, Cooler Master, Corsair ou Intel."
   },
   {
+    "slug": "microsoft-store-auto-update",
+    "name": "Microsoft Store Auto-Update",
+    "repo": "microsoft-store-auto-update",
+    "platform": "PC (Windows 10 / 11)",
+    "tagline": "Toutes vos applis du Microsoft Store à jour, d'un double-clic.",
+    "category": "Utilitaire",
+    "summary": "Scripts PowerShell qui vérifient les versions de vos applications Microsoft Store et installent leurs mises à jour, à la main ou à chaque démarrage de Windows.",
+    "features": [
+      "Inventaire des applications Store installées avec leur version, puis bilan avant / après",
+      "Mise à jour de toutes les applications avec l'outil officiel du Store (store updates --apply), complétée par le scan du Store et winget",
+      "Mode vérification seule : affiche les mises à jour disponibles sans rien installer",
+      "Mode forcé (redémarrage du service d'installation du Store) et mode réparation (wsreset et réenregistrement du Store)",
+      "Tâche planifiée au démarrage, en administrateur sans invite UAC, avec journal de la dernière exécution",
+      "Lanceurs .bat par double-clic, aucune installation"
+    ],
+    "download": "https://github.com/maythayus/microsoft-store-auto-update/releases/download/v1.2.0/microsoft-store-auto-update-v1.2.0.zip",
+    "downloadLabel": "Télécharger le zip v1.2.0",
+    "note": "L'outil en ligne de commande du Store (store.exe) est en préversion : il lance les installations et le Store les termine en arrière-plan. Une mise à jour que le Store ne propose pas à votre PC ne peut pas être forcée. Projet indépendant, non affilié à Microsoft."
+  },
+  {
     "slug": "astroclock",
     "name": "AstroClock",
     "repo": "AstroClock-Android",

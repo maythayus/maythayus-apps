@@ -10,13 +10,13 @@
     "features": [
       "24 consoles reconnues d'après le nom de leur dossier : Nintendo, Sega, Sony, NEC, SNK, Atari et arcade",
       "Lancement direct dans l'émulateur installé (RetroArch, PPSSPP, Dolphin, DuckStation, Azahar, Eden…), au choix pour chaque console ; la plupart demandent une seule fois l'accès au dossier des jeux",
-      "Jeux sur la TV, une clé USB ou un serveur SMB (NAS, PC) : les jeux réseau sont copiés sur la TV puis gardés en cache",
+      "Jeux sur la TV, une clé USB ou un serveur SMB (NAS, PC) : les jeux réseau sont copiés sur la TV puis gardés en cache, et restent jouables quand le serveur est éteint",
       "Connexion au serveur en IPv6 d'abord, IPv4 en secours",
       "Tout se pilote à la manette (croix directionnelle, A et B) ; jeu à deux avec une seconde manette, selon l'émulateur",
       "Interface en français et en anglais, selon la langue du système"
     ],
-    "download": "https://github.com/maythayus/retrosalon/releases/download/v0.2.0/RetroSalon-0.2.0.apk",
-    "downloadLabel": "Télécharger l'APK v0.2.0",
+    "download": "https://github.com/maythayus/retrosalon/releases/download/v0.2.1/RetroSalon-0.2.1.apk",
+    "downloadLabel": "Télécharger l'APK v0.2.1",
     "links": [
       {
         "label": "Guide des émulateurs Android TV",
